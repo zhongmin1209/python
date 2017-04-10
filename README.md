@@ -7,7 +7,6 @@ import lxml
 import urllib
 from urllib import request
 url = 'http://ecpi.ggj.gov.cn/jndfgz/'#
-
 req=request.Request(url)
 res=urllib.request.urlopen(req)
 cont=res.read()
